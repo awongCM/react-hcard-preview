@@ -1,0 +1,50 @@
+@media #{$tabletdesktop}{
+  .hcard-preview{
+    width: 520px;
+    float: left;
+    height: 100%;
+    position: relative;
+  }
+
+  .hcard-preview-container{
+    margin: auto;
+    position: absolute;
+    width: 420px;
+    top: 16%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hcard-preview-heading{
+    text-align: right;
+  }
+
+  .hcard-preview-avatar-heading{
+    color: #fff;
+    margin-left: 25px;
+    position: relative;
+    width: 297px;
+    float: left;
+    margin-top: 52px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    text-align: inherit;
+  }
+
+  .hcard-preview-avatar-image{
+    position: absolute;
+    top: 35px;
+    height: 106px;
+    width: 86px;
+    display: inline;
+  }
+
+  .hcard-preview-detail-text{
+    font-size: 16px;
+  }
+
+  .hcard-preview-detail-text__modifier{
+    width: 100px
+  }
+}

@@ -1,0 +1,64 @@
+//Forms Controls
+
+input.hcard-builder-input-text{
+  font-size: $default-font-size;
+}
+
+.hcard-builder-button{
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 48px;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.hcard-builder-button__upload:hover{
+  color: inherit;
+  background-color:#627b8b;
+}
+
+.hcard-builder-button__create:hover{
+  color: inherit;
+  background-color:#3498db;
+}
+
+.hcard-builder-button__upload{
+  background-color: #627b8b;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 4px 0px rgb(69, 101, 121);
+}
+
+.hcard-builder-button__create{
+  background-color: #3498db;
+  box-shadow: 0px 4px 0px rgb(41, 128, 185);
+}
+
+.hcard-builder-button__upload input#avatar_upload{
+  font-size: 40px;/*so it can be clickable despite being transparent*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}

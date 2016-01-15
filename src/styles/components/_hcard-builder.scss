@@ -1,0 +1,36 @@
+.hcard-builder{
+  background-color: $white;
+  padding-bottom: 14px;
+
+  &-heading {
+    font-size: $main-heading-font-size;
+    font-weight: bold;
+    color: $main-heading-color;
+  }
+
+  &-form{
+    &-heading{
+      font-size: $small-font-size;
+      color: $grey;
+      border-bottom: 1px solid $form-heading-color;
+      margin-bottom: 25px;
+    }
+  }
+
+  &-input-row{
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+
+  &-label-container{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 6px;
+  }
+
+  &-label-heading{
+    font-size: $small-font-size;
+    display: block;
+    margin-bottom: 6px;
+  }
+}

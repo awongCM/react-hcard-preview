@@ -1,0 +1,41 @@
+@media #{$tabletdesktop}{
+  .hcard-builder{
+    width: 480px;
+    float: left;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 100%;
+  }
+
+  .hcard-builder-form-heading{
+    font-size: 10px;
+  }
+
+  .hcard-builder-personal-details-section,
+  .hcard-builder-address-section{
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .hcard-builder-label-heading{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .hcard-builder-label-container{
+    width: 49.3%;
+  }
+
+  .hcard-builder-label-container__right-offset{
+    padding-right: 15px;
+  }
+
+  .hcard-builder-button{
+    width: 193px;
+  }
+
+  .hcard-builder-button__right-gutter{
+    margin-right: 18px;
+  }
+}

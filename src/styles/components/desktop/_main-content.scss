@@ -1,0 +1,12 @@
+@media #{$tabletdesktop}{
+  .main-content{
+    margin: auto;
+    position: absolute;
+    max-width: 1000px;
+    max-height: 620px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,21 @@
+/**
+ *
+ * Main CSS stylesheet
+ *
+ */
+html, body
+{
+    min-height: 100%;
+}
+
+body{
+    background-color: $backgroundcolor;
+    font-family: $font-family;
+    font-size: $default-font-size;
+}
+
+/* Overriding css framework html headings font types */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font-family;
+}

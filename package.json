@@ -1,0 +1,38 @@
+{
+  "name": "react-hcard-preview",
+  "version": "1.0.0",
+  "description": "Simple Hcard Preview App using React + SASS",
+  "main": "gulpfile.js",
+  "author": "Andy Wong",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "sass",
+    "gulp",
+    "browserify"
+  ],
+  "private": true,
+  "engines": {
+      "node": "^0.12.x",
+      "npm": "^2.1.x"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-react": "^3.1.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
